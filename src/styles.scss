@@ -1,10 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+$color-principal: #1976d2;
+$tipo-fuente: Arial;
+$estilo-fuente: italic;
+
 .nav-item{
     padding:2px;
     margin-left: 7px;
 }
 
 footer {
+    font-style: $estilo-fuente;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -22,5 +28,17 @@ footer {
 
 div{
     text-align: center;
-    font-family: Arial;
+    font-family: $tipo-fuente;
+}
+
+h1{
+    
+    height: 0 75px;
+    color: $color-principal;
+    font-size: 100px;
+}
+
+h2{
+    font-style: $estilo-fuente;
+    font-size: 25px;
 }
