@@ -8,13 +8,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Component1Component,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
