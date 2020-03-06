@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   sentimentApi: {
-    baseUrl: 'http://localhost:5000',
+    baseUrl: 'http://localhost:5000/analyze',
     variants: ['analyzer'],
     types: ['vader', 'textblob']
   }
